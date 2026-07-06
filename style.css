@@ -1,0 +1,44 @@
+.display-5 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1000;
+  font-style: normal;
+}
+.hero-container{
+    display: grid;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+}
+.big-dark-custom{
+    background-color: #232325;
+    width: 100%;
+    color: white;
+
+}
+.big-light-custom{
+    width: 100%;
+    height: 70vh;
+    align-content: center;
+}
+.title-on-dark{
+    color: white !important;
+}
+.profile-photo{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+footer{
+    background-color: #232325;
+    color: #f5f5f5;
+    width: 100%;
+    --bs-secondary-color: #b0b0b3;
+}
+footer .nav-link{
+    color: #b0b0b3 !important;
+}
+footer .nav-link:hover {
+    color: #ffffff !important;
+}
